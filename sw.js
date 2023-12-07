@@ -4,12 +4,12 @@
     const preCache = caches.open(CACHE_NAME)
         .then((cache) => {
             return cache.addAll([
-                '/index.html',
-                '/css/styles.css',
-                '/css/bootstrap.min.css',
-                '/css/londinium-theme.css',
-                '/js/app.js',
-                '/offline.html'
+                'index.html',
+                'css/styles.css',
+                'css/bootstrap.min.css',
+                'css/londinium-theme.css',
+                'js/app.js',
+                'offline.html'
             ]);
         });
 
